@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/YtaloAzeredo/trabalho-lab-oo.git",
-  "author": "ytalo azeredo <ytaloazeredo@gmail.com>",
+  "contributors": [
+    {
+    "name": "ytalo azeredo",
+    "email": "ytaloazeredo@gmail.com"
+    },
+    {
+    "name": "Lorran Aguiar"
+    }
+  ],
   "license": "MIT",
   "scripts": {
     "dev": "tsnd -r tsconfig-paths/register --inspect --respawn --transpile-only --ignore-watch node_modules src/shared/infra/http/server.ts"
